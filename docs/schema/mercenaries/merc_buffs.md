@@ -9,6 +9,7 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgbWVyY19idWZmcyB7XG4gICAgICAgIGludHVuc2lnbmVkIE1lcmNJZFxuICAgICAgICBpbnR1bnNpZ25lZCBTcGVsbElkXG4gICAgfVxuICAgIG1lcmMge1xuICAgICAgICAgTWVyY0lEXG4gICAgfVxuICAgIHNwZWxsc19uZXcge1xuICAgICAgICBpbnQgaWRcbiAgICAgICAgdmFyY2hhciB0ZWxlcG9ydF96b25lXG4gICAgICAgIGludCBkZXNjbnVtXG4gICAgICAgIGludCBlZmZlY3RkZXNjbnVtXG4gICAgICAgIGludCBlZmZlY3RkZXNjbnVtMlxuICAgICAgICBpbnQgdHlwZWRlc2NudW1cbiAgICB9XG4gICAgbWVyY19idWZmcyB8fC0tb3sgbWVyYyA6IE9uZS10by1PbmVcbiAgICBtZXJjX2J1ZmZzIHx8LS1veyBzcGVsbHNfbmV3IDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgbWVyY19idWZmcyB7XG4gICAgICAgIGludHVuc2lnbmVkIE1lcmNJZFxuICAgICAgICBpbnR1bnNpZ25lZCBTcGVsbElkXG4gICAgfVxuICAgIG1lcmMge1xuICAgICAgICAgTWVyY0lEXG4gICAgfVxuICAgIHNwZWxsc19uZXcge1xuICAgICAgICBpbnQgaWRcbiAgICAgICAgdmFyY2hhciB0ZWxlcG9ydF96b25lXG4gICAgICAgIGludCBkZXNjbnVtXG4gICAgICAgIGludCBlZmZlY3RkZXNjbnVtXG4gICAgICAgIGludCBlZmZlY3RkZXNjbnVtMlxuICAgICAgICBpbnQgdHlwZWRlc2NudW1cbiAgICB9XG4gICAgbWVyY19idWZmcyB8fC0tb3sgbWVyYyA6IE9uZS10by1PbmVcbiAgICBtZXJjX2J1ZmZzIHx8LS1veyBzcGVsbHNfbmV3IDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
@@ -16,14 +17,13 @@
 | One-to-One | MercId | merc | MercID |
 | One-to-One | SpellId | [spells_new](../../schema/spells/spells_new.md) | id |
 
-
 ## Schema
 
 | Column | Data Type | Description |
 | :--- | :--- | :--- |
 | MercBuffId | int | Unique Mercenary Buff Identifier |
 | MercId | int | [Mercenary Identifier](mercs.md) |
-| SpellId | int | [Spell Identifier](../../../schema/spells/spells_new.md) |
+| SpellId | int | [Spell Identifier](../../schema/spells/spells_new.md) |
 | CasterLevel | int | Caster Level |
 | DurationFormula | int | [Duration Formula](../../../../categories/spells/buff-duration-formulas) |
 | TicsRemaining | int | Tics Remaining |

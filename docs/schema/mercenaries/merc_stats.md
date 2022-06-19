@@ -9,12 +9,12 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgbWVyY19zdGF0cyB7XG4gICAgICAgIGludHVuc2lnbmVkIG1lcmNfbnBjX3R5cGVfaWRcbiAgICB9XG4gICAgbWVyY19ucGNfdHlwZXMge1xuICAgICAgICBpbnR1bnNpZ25lZCBtZXJjX25wY190eXBlX2lkXG4gICAgfVxuICAgIG1lcmNfc3RhdHMgfHwtLW97IG1lcmNfbnBjX3R5cGVzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgbWVyY19zdGF0cyB7XG4gICAgICAgIGludHVuc2lnbmVkIG1lcmNfbnBjX3R5cGVfaWRcbiAgICB9XG4gICAgbWVyY19ucGNfdHlwZXMge1xuICAgICAgICBpbnR1bnNpZ25lZCBtZXJjX25wY190eXBlX2lkXG4gICAgfVxuICAgIG1lcmNfc3RhdHMgfHwtLW97IG1lcmNfbnBjX3R5cGVzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
 | :--- | :--- | :--- | :--- |
 | One-to-One | merc_npc_type_id | [merc_npc_types](../../schema/mercenaries/merc_npc_types.md) | merc_npc_type_id |
-
 
 ## Schema
 

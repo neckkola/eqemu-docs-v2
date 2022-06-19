@@ -9,12 +9,12 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgZmFjdGlvbl9iYXNlX2RhdGEge1xuICAgICAgICBzbWFsbGludCBjbGllbnRfZmFjdGlvbl9pZFxuICAgIH1cbiAgICBmYWN0aW9uX2xpc3Qge1xuICAgICAgICBpbnQgaWRcbiAgICB9XG4gICAgZmFjdGlvbl9iYXNlX2RhdGEgfHwtLW97IGZhY3Rpb25fbGlzdCA6IE9uZS10by1PbmVcblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0=)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgZmFjdGlvbl9iYXNlX2RhdGEge1xuICAgICAgICBzbWFsbGludCBjbGllbnRfZmFjdGlvbl9pZFxuICAgIH1cbiAgICBmYWN0aW9uX2xpc3Qge1xuICAgICAgICBpbnQgaWRcbiAgICB9XG4gICAgZmFjdGlvbl9iYXNlX2RhdGEgfHwtLW97IGZhY3Rpb25fbGlzdCA6IE9uZS10by1PbmVcblxuIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0=){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
 | :--- | :--- | :--- | :--- |
 | One-to-One | client_faction_id | [faction_list](../../schema/factions/faction_list.md) | id |
-
 
 ## Schema
 

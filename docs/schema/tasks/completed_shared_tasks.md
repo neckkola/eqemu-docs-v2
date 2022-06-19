@@ -9,12 +9,12 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgY29tcGxldGVkX3NoYXJlZF90YXNrcyB7XG4gICAgICAgIGludCB0YXNrX2lkXG4gICAgfVxuICAgIHRhc2tzIHtcbiAgICAgICAgaW50dW5zaWduZWQgaWRcbiAgICAgICAgdGlueWludCB0eXBlXG4gICAgfVxuICAgIGNvbXBsZXRlZF9zaGFyZWRfdGFza3MgfHwtLW97IHRhc2tzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgY29tcGxldGVkX3NoYXJlZF90YXNrcyB7XG4gICAgICAgIGludCB0YXNrX2lkXG4gICAgfVxuICAgIHRhc2tzIHtcbiAgICAgICAgaW50dW5zaWduZWQgaWRcbiAgICAgICAgdGlueWludCB0eXBlXG4gICAgfVxuICAgIGNvbXBsZXRlZF9zaGFyZWRfdGFza3MgfHwtLW97IHRhc2tzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
 | :--- | :--- | :--- | :--- |
 | One-to-One | task_id | [tasks](../../schema/tasks/tasks.md) | id |
-
 
 ## Schema
 

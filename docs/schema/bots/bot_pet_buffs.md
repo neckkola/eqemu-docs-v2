@@ -9,6 +9,7 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgYm90X3BldF9idWZmcyB7XG4gICAgICAgIGludHVuc2lnbmVkIHBldHNfaW5kZXhcbiAgICAgICAgaW50dW5zaWduZWQgc3BlbGxfaWRcbiAgICB9XG4gICAgYm90X3BldHMge1xuICAgICAgICBpbnR1bnNpZ25lZCBib3RfaWRcbiAgICAgICAgaW50dW5zaWduZWQgcGV0c19pbmRleFxuICAgICAgICBpbnR1bnNpZ25lZCBzcGVsbF9pZFxuICAgIH1cbiAgICBzcGVsbHNfbmV3IHtcbiAgICAgICAgaW50IGlkXG4gICAgICAgIHZhcmNoYXIgdGVsZXBvcnRfem9uZVxuICAgICAgICBpbnQgZGVzY251bVxuICAgICAgICBpbnQgZWZmZWN0ZGVzY251bVxuICAgICAgICBpbnQgZWZmZWN0ZGVzY251bTJcbiAgICAgICAgaW50IHR5cGVkZXNjbnVtXG4gICAgfVxuICAgIGJvdF9wZXRfYnVmZnMgfHwtLW97IGJvdF9wZXRzIDogT25lLXRvLU9uZVxuICAgIGJvdF9wZXRfYnVmZnMgfHwtLW97IHNwZWxsc19uZXcgOiBPbmUtdG8tT25lXG5cbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgYm90X3BldF9idWZmcyB7XG4gICAgICAgIGludHVuc2lnbmVkIHBldHNfaW5kZXhcbiAgICAgICAgaW50dW5zaWduZWQgc3BlbGxfaWRcbiAgICB9XG4gICAgYm90X3BldHMge1xuICAgICAgICBpbnR1bnNpZ25lZCBib3RfaWRcbiAgICAgICAgaW50dW5zaWduZWQgcGV0c19pbmRleFxuICAgICAgICBpbnR1bnNpZ25lZCBzcGVsbF9pZFxuICAgIH1cbiAgICBzcGVsbHNfbmV3IHtcbiAgICAgICAgaW50IGlkXG4gICAgICAgIHZhcmNoYXIgdGVsZXBvcnRfem9uZVxuICAgICAgICBpbnQgZGVzY251bVxuICAgICAgICBpbnQgZWZmZWN0ZGVzY251bVxuICAgICAgICBpbnQgZWZmZWN0ZGVzY251bTJcbiAgICAgICAgaW50IHR5cGVkZXNjbnVtXG4gICAgfVxuICAgIGJvdF9wZXRfYnVmZnMgfHwtLW97IGJvdF9wZXRzIDogT25lLXRvLU9uZVxuICAgIGJvdF9wZXRfYnVmZnMgfHwtLW97IHNwZWxsc19uZXcgOiBPbmUtdG8tT25lXG5cbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
@@ -16,14 +17,13 @@
 | One-to-One | pets_index | [bot_pets](../../schema/bots/bot_pets.md) | pets_index |
 | One-to-One | spell_id | [spells_new](../../schema/spells/spells_new.md) | id |
 
-
 ## Schema
 
 | Column | Data Type | Description |
 | :--- | :--- | :--- |
 | pet_buffs_index | int | Unique Bot Pet Buffs Identifier |
 | pets_index | int | [Bot Pet Identifier](bot_pets.md) |
-| spell_id | int | [Spell Identifier](../../../schema/spells/spells_new.md) |
+| spell_id | int | [Spell Identifier](../../schema/spells/spells_new.md) |
 | caster_level | int | Caster Level |
 | duration | int | Duration of buff |
 

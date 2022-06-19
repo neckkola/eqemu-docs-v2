@@ -9,12 +9,12 @@
 
 [![](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgcnVsZV92YWx1ZXMge1xuICAgICAgICB0aW55aW50dW5zaWduZWQgcnVsZXNldF9pZFxuICAgIH1cbiAgICBydWxlX3NldHMge1xuICAgICAgICB0aW55aW50dW5zaWduZWQgcnVsZXNldF9pZFxuICAgIH1cbiAgICBydWxlX3ZhbHVlcyB8fC0tb3sgcnVsZV9zZXRzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==)](https://mermaid.ink/img/eyJjb2RlIjoiZXJEaWFncmFtXG4gICAgcnVsZV92YWx1ZXMge1xuICAgICAgICB0aW55aW50dW5zaWduZWQgcnVsZXNldF9pZFxuICAgIH1cbiAgICBydWxlX3NldHMge1xuICAgICAgICB0aW55aW50dW5zaWduZWQgcnVsZXNldF9pZFxuICAgIH1cbiAgICBydWxlX3ZhbHVlcyB8fC0tb3sgcnVsZV9zZXRzIDogT25lLXRvLU9uZVxuXG4iLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOnRydWUsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjp0cnVlfQ==){target=diagram}
 
+
 ## Relationships
 
 | Relationship Type | Local Key | Relates to Table | Foreign Key |
 | :--- | :--- | :--- | :--- |
 | One-to-One | ruleset_id | [rule_sets](../../schema/rules/rule_sets.md) | ruleset_id |
-
 
 ## Schema
 
