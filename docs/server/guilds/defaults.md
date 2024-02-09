@@ -33,4 +33,3 @@ By default, the guild leader is a guild banker.
 When creating a new guild, the following permissions are set as a default.
 
 ![image](https://github.com/EQEmu/Server/assets/65987027/5e5d4a21-8b44-4f05-b185-774141ef0f18)
-
